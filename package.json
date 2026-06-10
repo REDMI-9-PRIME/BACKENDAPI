@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-     "start": "json-server --watch db.json --host 0.0.0.0 --port $PORT"
+    "start": "json-server --watch db.json --host 0.0.0.0 --port $PORT"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,14 @@
   "type": "commonjs",
   "dependencies": {
     "json-server": "^0.17.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/REDMI-9-PRIME/BACKENDAPI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/REDMI-9-PRIME/BACKENDAPI/issues"
+  },
+  "homepage": "https://github.com/REDMI-9-PRIME/BACKENDAPI#readme"
 }
-// jjk
