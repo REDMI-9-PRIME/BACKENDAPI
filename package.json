@@ -1,28 +1,13 @@
 {
   "name": "backendapi",
   "version": "1.0.0",
-  "description": "JSON Server Backend API",
-  "main": "index.js",
-  "type": "commonjs",
   "scripts": {
-    "start": "npx json-server --watch db.json --host 0.0.0.0 --port $PORT"
+    "start": "node ./node_modules/json-server/lib/bin.js --watch db.json --host 0.0.0.0 --port $PORT"
   },
-  "keywords": [
-    "json-server",
-    "api",
-    "backend"
-  ],
-  "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/REDMI-9-PRIME/BACKENDAPI.git"
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
   },
-  "bugs": {
-    "url": "https://github.com/REDMI-9-PRIME/BACKENDAPI/issues"
-  },
-  "homepage": "https://github.com/REDMI-9-PRIME/BACKENDAPI#readme",
- "dependencies": {
-  "json-server": "^1.0.0-beta.3"
-}
+  "engines": {
+    "node": "20.x"
+  }
 }
